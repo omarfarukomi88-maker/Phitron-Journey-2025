@@ -1,0 +1,17 @@
+Write down Three Limitations of the array
+which can be solved by the use of Linked List___?????
+
+1.fixed size:
+        array has fixed size it can add more data node
+        linked-list isnt fixed its can add size,,
+
+2.serial wise  memory allocation:
+        array created and take memory serial wise in memory.
+        like example for int :
+                100 104 108 112 116 220
+        but linked-list store memory when they get space randomly 
+        and connet each others with next pointer 
+
+3. insert and delleting value:
+            in array insert a  value and dellet a value is costly 
+            but in linked-list in can easily do this... 

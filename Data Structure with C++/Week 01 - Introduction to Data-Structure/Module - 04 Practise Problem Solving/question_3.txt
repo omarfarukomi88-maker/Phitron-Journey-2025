@@ -1,0 +1,4 @@
+What is the value of Head?
+
+head is the first node of the singly linked-list 
+by this head we can acces hole list of the memory

@@ -1,0 +1,9 @@
+What will be the value of Head->Next->Next->Value?
+
+
+the value is 1
+
+head -> next it go to next node 1000
+head -> next -> next it go to 1050
+head -> next -> next -> value it will be print 1 in addrase of 1050,,,
+

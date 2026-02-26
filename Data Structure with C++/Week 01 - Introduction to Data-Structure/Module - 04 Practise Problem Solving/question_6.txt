@@ -1,0 +1,69 @@
+What will be the value of Sum following pseudocode snippets? 
+Sum = 0
+Temp = Head
+While ( Temp -> Next!= 1020){
+	Sum += Temp-> value
+	Temp = Temp -> Next
+}
+Sum -= Temp -> value;
+
+
+
+
+### Linked List (value → next)
+
+Head থেকে লিস্টটি হলো:
+
+* **5 → 1000**
+* **7 → 1050**
+* **1 → 2000**
+* **14 → 1020**
+* **3 → 3000**
+* **11 → NULL**
+
+👉 এখানে লাল **? = 1020** (value 14 নোডের `Next`)
+
+---
+
+### Pseudocode বিশ্লেষণ
+
+```text
+Sum = 0
+Temp = Head
+
+While (Temp->Next != 1020) {
+    Sum += Temp->value
+    Temp = Temp->Next
+}
+
+Sum -= Temp->value
+```
+
+---
+
+### Iteration অনুযায়ী হিসাব
+
+| Temp value | Temp->Next | Condition | Sum         |
+| ---------- | ---------- | --------- | ----------- |
+| 5          | 1000       | ≠ 1020 ✔  | 0 + 5 = 5   |
+| 7          | 1050       | ≠ 1020 ✔  | 5 + 7 = 12  |
+| 1          | 2000       | ≠ 1020 ✔  | 12 + 1 = 13 |
+| 14         | 1020       | = 1020 ❌  | loop stop   |
+
+Loop শেষ হলে:
+
+* `Temp` এখন **value = 14**
+* `Sum = 13`
+
+শেষ লাইনে:
+
+```text
+Sum -= Temp->value
+Sum = 13 - 14 = -1
+```
+
+---
+
+### ✅ Final Answer
+
+**Sum = -1**

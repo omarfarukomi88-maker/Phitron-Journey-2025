@@ -1,0 +1,9 @@
+Why do you think linked-list requires more memory than an array
+when storing the same number of elements?
+
+array store only value.suppose one int 4 byte store in array.
+but linked-list there is also store a pointer besides value.
+in node value there is 4+4 byte memory are allocated
+
+so i think that reason linked-list store more memory than array....
+

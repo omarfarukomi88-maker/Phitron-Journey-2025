@@ -1,0 +1,21 @@
+
+n=1000
+
+
+
+constant complexity     :   O(1)        -> 1
+linear complexity       :   O(N)        -> 1000
+logarithmic complexity  :   O(Log_N)    -> 10
+quardratic complexity   :   O(N*N)      -> 1000000
+sqrt    complexity      :   O(sqrt_N)   -> 32
+linearithmic complexity :   O(N_Log_N)  -> (1000 * 10) = 10000
+
+
+
+best list:
+    1-  constant complexity     :   O(1)  
+    2-  logarithmic complexity  :   O(Log_N)
+    3-  sqrt    complexity      :   O(sqrt_N)
+    4-  linear complexity       :   O(N)        -> 1000
+    5-  linearithmic complexity :   O(N_Log_N)  -> (1000 * 10) = 10000
+    6-  quardratic complexity   :   O(N*N)      -> 1000000

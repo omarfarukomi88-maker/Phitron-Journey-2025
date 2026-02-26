@@ -1,0 +1,7 @@
+What is the value of ? marked address location?
+
+
+1020 
+because the previous next has store that ? marks addrase
+its wasy to say and should be notiched..
+
