@@ -1,0 +1,4 @@
+
+    {
+        cout << val << endl;
+    }
